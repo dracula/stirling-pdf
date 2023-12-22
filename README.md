@@ -21,7 +21,7 @@ services:
       - /path/to/logs/directory:/logs/
     environment:
       - DOCKER_ENABLE_SECURITY=false # Set to true to enable basic auth
-      - SECURITY_ENABLE_LOGIN=false # If DOCKER_ENABLE_SECURITY is true, set this to true to enable login screen
+      - SECURITY_ENABLE_LOGIN=false # OPTIONAL: If DOCKER_ENABLE_SECURITY is true, set this to true to enable login screen
 ```
 ## Instructions
 
