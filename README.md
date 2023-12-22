@@ -24,7 +24,6 @@ services:
 ```
 ## Instructions
 
-### Basic
 1. First, create a `static` directory in your `/path/to/configs/directory`. Inside that `static` directory, create a directory called `css`.
 
 2. Inside that `css` directory (ex: `/path/to/configs/directory/static/css`), create a `css` file called `dark-mode.css`.
