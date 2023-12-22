@@ -20,7 +20,8 @@ services:
       - /path/to/customFiles/directory:/customFiles/
       - /path/to/logs/directory:/logs/
     environment:
-      - DOCKER_ENABLE_SECURITY=false
+      - DOCKER_ENABLE_SECURITY=false # Set to true to enable basic auth
+      - SECURITY_ENABLE_LOGIN=false # If DOCKER_ENABLE_SECURITY is true, set this to true to enable login screen
 ```
 ## Instructions
 
