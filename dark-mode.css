@@ -1,0 +1,186 @@
+/*****************************
+*      DRACULA STYLING       *
+*****************************/
+
+body,
+select,
+textarea {
+	/* DRACULA COLORS */
+	--dracula-background: #282a36;
+	--dracula-background-dark: #0e0d11;
+	--dracula-foreground: #3b3e4e;
+	--dracula-card: #44475a;
+	--dracula-card-lighter: #4b4e63;
+	--dracula-card-hover: #6d718f;
+	--dracula-text: #f8f8f2;
+	--dracula-slate: #6272a4;
+	--dracula-cyan: #8be9fd;
+	--dracula-green: #50fa7ae8;
+	--dracula-orange: #ffb86c;
+	--dracula-pink: #ff79c6;
+	--dracula-purple: #bd93f9;
+	--dracula-red: #ff5555;
+	--dracula-yellow: #f1fa8c;
+	--dracula-scrollbar-fg: #bd93f9;
+	--dracula-scrollbar-bg: #4c3b64;
+
+	--body-background-color: 59, 62, 78;
+	--base-font-color: 255, 255, 255;
+	background-color: rgb(var(--body-background-color)) !important;
+	color: rgb(var(--base-font-color)) !important;
+}
+
+a {
+	color: var(--dracula-cyan);
+}
+
+.bg-dark {
+	background-color: var(--dracula-background) !important;
+}
+
+.navbar-brand .icon-text {
+	color: #50fa7b !important;
+}
+
+.navbar-dark #navbarNav .nav-link .icon {
+	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+		brightness(101%) contrast(101%) !important;
+}
+
+.navbar-dark #navbarNav .nav-link::after {
+	color: var(--dracula-cyan);
+}
+
+.navbar-dark #navbarNav .nav-link .navbar-icon {
+	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+		brightness(101%) contrast(101%) !important;
+}
+
+.navbar-dark #navbarNav .dropdown-item .icon {
+	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+		brightness(101%) contrast(101%) !important;
+}
+
+.navbar-dark #navbarNav .nav-link .icon-text {
+	color: var(--dracula-pink) !important;
+}
+
+.navbar-dark span {
+	color: var(--dracula-pink) !important;
+}
+
+#languageDropdown {
+	color: var(--dracula-pink) !important;
+}
+
+h1 {
+	color: var(--dracula-purple) !important;
+}
+h2 {
+	color: var(--dracula-purple) !important;
+}
+h3 {
+	color: var(--dracula-purple) !important;
+}
+h4 {
+	color: var(--dracula-purple) !important;
+}
+
+.dark-mode-search {
+	background: var(--dracula-background) !important;
+}
+
+.dark-mode-search:focus {
+	outline: 1px solid var(--dracula-purple) !important;
+}
+
+.dark-mode-search::placeholder {
+	color: var(--dracula-slate) !important;
+}
+
+.feature-card {
+	background: var(--dracula-card) !important;
+}
+
+.feature-card .card-title {
+	color: var(--dracula-purple) !important;
+}
+
+.feature-card * {
+	color: var(--dracula-text) !important;
+}
+
+.home-card-icon-colour {
+	filter: invert(76%) sepia(45%) saturate(4882%) hue-rotate(213deg)
+		brightness(101%) contrast(95%) !important;
+}
+
+#footer a {
+	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+		brightness(101%) contrast(101%) !important;
+}
+
+.card {
+	background-color: rgb(var(--body-background-color)) !important;
+}
+
+.dark-card {
+	background-color: rgb(var(--body-background-color)) !important;
+}
+
+#global-buttons-container {
+	background-color: var(--dracula-card) !important;
+}
+
+.btn {
+	background-color: var(--dracula-cyan) !important;
+	color: var(--dracula-background-dark) !important;
+}
+
+.btn-primary {
+	background-color: var(--dracula-purple) !important;
+}
+
+.btn-secondary {
+	background-color: var(--dracula-slate) !important;
+}
+
+.btn-info {
+	background-color: var(--dracula-orange) !important;
+}
+
+.btn-danger {
+	background-color: var(--dracula-red) !important;
+}
+
+.dark-card {
+	background-color: var(--dracula-card-lighter) !important;
+}
+
+.card-title {
+	color: var(--dracula-purple) !important;
+}
+
+.dropdown-menu-dark {
+	background-color: var(--dracula-card-lighter) !important;
+}
+
+#navbarSearch > form {
+	width: 300px !important;
+	background-color: var(--dracula-card-lighter) !important;
+	border: 1px solid var(--dracula-slate) !important;
+}
+
+#navbarSearch > div {
+	background-color: var(--dracula-card-lighter) !important;
+	border: 1px solid var(--dracula-slate) !important;
+}
+
+.search-results a:hover {
+	background-color: var(--dracula-card-hover) !important;
+}
+
+.favorite-icon img {
+	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+		brightness(101%) contrast(101%) !important;
+}
