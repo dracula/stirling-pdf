@@ -1,0 +1,14 @@
+{
+  "name": "stirlingpdf-dracula",
+  "version": "1.0.0",
+  "description": "> A dark theme for [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

@@ -2,128 +2,128 @@
 body,
 select,
 textarea {
-	--body-background-color: 51, 51, 51;
-	--base-font-color: 255, 255, 255;
-	background-color: rgb(var(--body-background-color)) !important;
-	color: rgb(var(--base-font-color)) !important;
+  --body-background-color: 51, 51, 51;
+  --base-font-color: 255, 255, 255;
+  background-color: rgb(var(--body-background-color)) !important;
+  color: rgb(var(--base-font-color)) !important;
 }
 .card {
-	background-color: rgb(var(--body-background-color)) !important;
-	border: 1px solid #999;
-	color: rgb(var(--base-font-color)) !important;
+  background-color: rgb(var(--body-background-color)) !important;
+  border: 1px solid #999;
+  color: rgb(var(--base-font-color)) !important;
 }
 
 .dark-card {
-	background-color: rgb(var(--body-background-color)) !important;
-	color: rgb(var(--base-font-color)) !important;
+  background-color: rgb(var(--body-background-color)) !important;
+  color: rgb(var(--base-font-color)) !important;
 }
 .jumbotron {
-	background-color: #222; /* or any other dark color */
-	color: rgb(var(--base-font-color)) !important; /* or any other light color */
+  background-color: #222; /* or any other dark color */
+  color: rgb(var(--base-font-color)) !important; /* or any other light color */
 }
 
 .list-group {
-	background-color: #222 !important;
-	color: rgb(var(--base-font-color)) !important;
+  background-color: #222 !important;
+  color: rgb(var(--base-font-color)) !important;
 }
 .list-group-item {
-	background-color: #222 !important;
-	color: rgb(var(--base-font-color)) !important;
+  background-color: #222 !important;
+  color: rgb(var(--base-font-color)) !important;
 }
 #support-section {
-	background-color: #444 !important;
+  background-color: #444 !important;
 }
 
 #pages-container-wrapper {
-	--background-color: rgba(255, 255, 255, 0.046) !important;
-	--scroll-bar-color: #4c4c4c !important;
-	--scroll-bar-thumb: #d3d3d3 !important;
-	--scroll-bar-thumb-hover: rgb(var(--base-font-color)) !important;
+  --background-color: rgba(255, 255, 255, 0.046) !important;
+  --scroll-bar-color: #4c4c4c !important;
+  --scroll-bar-thumb: #d3d3d3 !important;
+  --scroll-bar-thumb-hover: rgb(var(--base-font-color)) !important;
 }
 
 .favorite-icon img {
-	filter: brightness(0) invert(1) !important;
+  filter: brightness(0) invert(1) !important;
 }
 table thead {
-	background-color: #333 !important;
-	border: 1px solid #444;
+  background-color: #333 !important;
+  border: 1px solid #444;
 }
 table th,
 table td {
-	border: 1px solid #444 !important;
-	color: white;
+  border: 1px solid #444 !important;
+  color: white;
 }
 .btn {
-	background-color: #444 !important;
-	border: none;
-	color: #fff !important;
+  background-color: #444 !important;
+  border: none;
+  color: #fff !important;
 }
 .btn-primary {
-	background-color: #007bff !important;
-	border: none;
-	color: #fff !important;
+  background-color: #007bff !important;
+  border: none;
+  color: #fff !important;
 }
 .btn-secondary {
-	background-color: #6c757d !important;
-	border: none;
-	color: #fff !important;
+  background-color: #6c757d !important;
+  border: none;
+  color: #fff !important;
 }
 .btn-info {
-	background-color: #17a2b8 !important;
-	border: none;
-	color: #fff !important;
+  background-color: #17a2b8 !important;
+  border: none;
+  color: #fff !important;
 }
 .btn-danger {
-	background-color: #dc3545 !important;
-	border: none;
-	color: #fff !important;
+  background-color: #dc3545 !important;
+  border: none;
+  color: #fff !important;
 }
 .btn-outline-secondary {
-	color: #fff !important;
-	border-color: #fff;
+  color: #fff !important;
+  border-color: #fff;
 }
 .btn-outline-secondary:hover {
-	background-color: #444 !important;
-	color: #007bff !important;
-	border-color: #007bff;
+  background-color: #444 !important;
+  color: #007bff !important;
+  border-color: #007bff;
 }
 .blackwhite-icon {
-	filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
 hr {
-	border-color: rgba(255, 255, 255, 0.6); /* semi-transparent white */
-	background-color: rgba(
-		255,
-		255,
-		255,
-		0.6
-	); /* for some browsers that might use background instead of border for <hr> */
+  border-color: rgba(255, 255, 255, 0.6); /* semi-transparent white */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.6
+  ); /* for some browsers that might use background instead of border for <hr> */
 }
 
 #global-buttons-container input {
-	background-color: #323948;
-	caret-color: #ffffff;
-	color: #ffffff;
+  background-color: #323948;
+  caret-color: #ffffff;
+  color: #ffffff;
 }
 #global-buttons-container input::placeholder {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 #global-buttons-container input:disabled::-webkit-input-placeholder {
-	/* WebKit browsers */
-	color: #6e6865;
+  /* WebKit browsers */
+  color: #6e6865;
 }
 #global-buttons-container input:disabled:-moz-placeholder {
-	/* Mozilla Firefox 4 to 18 */
-	color: #6e6865;
+  /* Mozilla Firefox 4 to 18 */
+  color: #6e6865;
 }
 #global-buttons-container input:disabled::-moz-placeholder {
-	/* Mozilla Firefox 19+ */
-	color: #6e6865;
+  /* Mozilla Firefox 19+ */
+  color: #6e6865;
 }
 #global-buttons-container input:disabled:-ms-input-placeholder {
-	/* Internet Explorer 10+ */
-	color: #6e6865;
+  /* Internet Explorer 10+ */
+  color: #6e6865;
 }
 
 /*****************************
@@ -133,182 +133,182 @@ hr {
 body,
 select,
 textarea {
-	/* DRACULA COLORS */
-	--dracula-background: #282a36;
-	--dracula-background-dark: #0e0d11;
-	--dracula-foreground: #3b3e4e;
-	--dracula-card: #44475a;
-	--dracula-card-lighter: #4b4e63;
-	--dracula-card-hover: #6d718f;
-	--dracula-text: #f8f8f2;
-	--dracula-slate: #6272a4;
-	--dracula-cyan: #8be9fd;
-	--dracula-green: #50fa7ae8;
-	--dracula-orange: #ffb86c;
-	--dracula-pink: #ff79c6;
-	--dracula-purple: #bd93f9;
-	--dracula-red: #ff5555;
-	--dracula-yellow: #f1fa8c;
-	--dracula-scrollbar-fg: #bd93f9;
-	--dracula-scrollbar-bg: #4c3b64;
+  /* DRACULA COLORS */
+  --dracula-background: #282a36;
+  --dracula-background-dark: #0e0d11;
+  --dracula-foreground: #3b3e4e;
+  --dracula-card: #44475a;
+  --dracula-card-lighter: #4b4e63;
+  --dracula-card-hover: #6d718f;
+  --dracula-text: #f8f8f2;
+  --dracula-slate: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-green: #50fa7ae8;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-purple: #bd93f9;
+  --dracula-red: #ff5555;
+  --dracula-yellow: #f1fa8c;
+  --dracula-scrollbar-fg: #bd93f9;
+  --dracula-scrollbar-bg: #4c3b64;
 
-	--body-background-color: 59, 62, 78;
-	--base-font-color: 255, 255, 255;
-	background-color: rgb(var(--body-background-color)) !important;
-	color: rgb(var(--base-font-color)) !important;
+  --body-background-color: 59, 62, 78;
+  --base-font-color: 255, 255, 255;
+  background-color: rgb(var(--body-background-color)) !important;
+  color: rgb(var(--base-font-color)) !important;
 }
 
 a {
-	color: var(--dracula-cyan);
+  color: var(--dracula-cyan);
 }
 
 .bg-dark {
-	background-color: var(--dracula-background) !important;
+  background-color: var(--dracula-background) !important;
 }
 
 .navbar-brand .icon-text {
-	color: #50fa7b !important;
+  color: #50fa7b !important;
 }
 
 .navbar-dark #navbarNav .nav-link .icon {
-	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
-		brightness(101%) contrast(101%) !important;
+  filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+    brightness(101%) contrast(101%) !important;
 }
 
 .navbar-dark #navbarNav .nav-link::after {
-	color: var(--dracula-cyan);
+  color: var(--dracula-cyan);
 }
 
 .navbar-dark #navbarNav .nav-link .navbar-icon {
-	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
-		brightness(101%) contrast(101%) !important;
+  filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+    brightness(101%) contrast(101%) !important;
 }
 
 .navbar-dark #navbarNav .dropdown-item .icon {
-	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
-		brightness(101%) contrast(101%) !important;
+  filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+    brightness(101%) contrast(101%) !important;
 }
 
 .navbar-dark #navbarNav .nav-link .icon-text {
-	color: var(--dracula-pink) !important;
+  color: var(--dracula-pink) !important;
 }
 
 .navbar-dark span {
-	color: var(--dracula-pink) !important;
+  color: var(--dracula-pink) !important;
 }
 
 #languageDropdown {
-	color: var(--dracula-pink) !important;
+  color: var(--dracula-pink) !important;
 }
 
 h1 {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 h2 {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 h3 {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 h4 {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 
 .dark-mode-search {
-	background: var(--dracula-background) !important;
+  background: var(--dracula-background) !important;
 }
 
 .dark-mode-search:focus {
-	outline: 1px solid var(--dracula-purple) !important;
+  outline: 1px solid var(--dracula-purple) !important;
 }
 
 .dark-mode-search::placeholder {
-	color: var(--dracula-slate) !important;
+  color: var(--dracula-slate) !important;
 }
 
 .feature-card {
-	background: var(--dracula-card) !important;
+  background: var(--dracula-card) !important;
 }
 
 .feature-card .card-title {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 
 .feature-card * {
-	color: var(--dracula-text) !important;
+  color: var(--dracula-text) !important;
 }
 
 .home-card-icon-colour {
-	filter: invert(76%) sepia(45%) saturate(4882%) hue-rotate(213deg)
-		brightness(101%) contrast(95%) !important;
+  filter: invert(76%) sepia(45%) saturate(4882%) hue-rotate(213deg)
+    brightness(101%) contrast(95%) !important;
 }
 
 #footer a {
-	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
-		brightness(101%) contrast(101%) !important;
+  filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+    brightness(101%) contrast(101%) !important;
 }
 
 .card {
-	background-color: rgb(var(--body-background-color)) !important;
+  background-color: rgb(var(--body-background-color)) !important;
 }
 
 .dark-card {
-	background-color: rgb(var(--body-background-color)) !important;
+  background-color: rgb(var(--body-background-color)) !important;
 }
 
 #global-buttons-container {
-	background-color: var(--dracula-card) !important;
+  background-color: var(--dracula-card) !important;
 }
 
 .btn {
-	background-color: var(--dracula-cyan) !important;
-	color: var(--dracula-background-dark) !important;
+  background-color: var(--dracula-cyan) !important;
+  color: var(--dracula-background-dark) !important;
 }
 
 .btn-primary {
-	background-color: var(--dracula-purple) !important;
+  background-color: var(--dracula-purple) !important;
 }
 
 .btn-secondary {
-	background-color: var(--dracula-slate) !important;
+  background-color: var(--dracula-slate) !important;
 }
 
 .btn-info {
-	background-color: var(--dracula-orange) !important;
+  background-color: var(--dracula-orange) !important;
 }
 
 .btn-danger {
-	background-color: var(--dracula-red) !important;
+  background-color: var(--dracula-red) !important;
 }
 
 .dark-card {
-	background-color: var(--dracula-card-lighter) !important;
+  background-color: var(--dracula-card-lighter) !important;
 }
 
 .card-title {
-	color: var(--dracula-purple) !important;
+  color: var(--dracula-purple) !important;
 }
 
 .dropdown-menu-dark {
-	background-color: var(--dracula-card-lighter) !important;
+  background-color: var(--dracula-card-lighter) !important;
 }
 
 #navbarSearch > form {
-	width: 300px !important;
-	background-color: var(--dracula-card-lighter) !important;
-	border: 1px solid var(--dracula-slate) !important;
+  width: 300px !important;
+  background-color: var(--dracula-card-lighter) !important;
+  border: 1px solid var(--dracula-slate) !important;
 }
 
 #navbarSearch > div {
-	background-color: var(--dracula-card-lighter) !important;
-	border: 1px solid var(--dracula-slate) !important;
+  background-color: var(--dracula-card-lighter) !important;
+  border: 1px solid var(--dracula-slate) !important;
 }
 
 .search-results a:hover {
-	background-color: var(--dracula-card-hover) !important;
+  background-color: var(--dracula-card-hover) !important;
 }
 
 .favorite-icon img {
-	filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
-		brightness(101%) contrast(101%) !important;
+  filter: invert(67%) sepia(74%) saturate(1566%) hue-rotate(288deg)
+    brightness(101%) contrast(101%) !important;
 }
